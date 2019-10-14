@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+VOTE MOLLIE
+</title>
+    <style>
+      table {border-style: ridge;  border-width: 40px; border-color: #8ebf42; background-color: #d9d9d9;}
+      th  {border:5px solid #095484;}   
+      td {border:20px groove #1c87c9;}
+    </style>
+<style>
+.example1 {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ font-size: 3em;
+ color: limegreen;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+</style>
+</head>
+<body>
+<marquee behavior="scroll" direction="left" scrollamount="10">
+ <img src="Mollie.jpg"  width="300" height="300">
+ <img src="dumbo.jpg"   width="300" height="300">
+</marquee>
+<table>
+<tfoot>
+ <tr bordercolor="pink">
+   <th>pros</th>
+   <th>Cons</th>
+ </tr>
+ <tr bordercolor="yellow">
+  <th colspan="3">Mollie</th>
+ </tr>
+ <tr bordercolor="purpule">
+  <td><strong>Big Brain</strong></td>
+  <td>Too smart</td>
+ </tr>
+ <tr bordercolor="pink">
+  <td><strong>Pretty</strong></td>
+  <td>people are jelous of her</td>
+ </tr>
+ <tr bordercolor="yellow">
+  <td><strong>Knows what she wants</strong></td>
+  <td>Needs help to get to it</td>
+ </tr>
+ <tr bordercolor="purpule">
+  <td><strong>Knows what she and you need</strong></td>
+ </tr>
+ <tr>
+  <td><strong>Against Evil Nepolian</strong></td>
+ </tr>
+</tfoot>
+</table>
+<table>
+<tfoot>
+ <tr bordercolor="pink">
+   <th>pros</th>
+   <th>Cons</th>
+ </tr>
+ <tr bordercolor="yellow">
+  <th colspan="3">Clover</th>
+ </tr>
+ <tr bordercolor="purpule">
+  <td><strong>Knows what he wants</strong></td>
+  <td>Dumb</td>
+ </tr>
+ <tr bordercolor="pink">
+  <td><strong></strong></td>
+  <td>Ugly</td>
+ </tr>
+ <tr bordercolor="yellow">
+  <td><strong></strong></td>
+  <td>Doesn't know how to get what he wants</td>
+ </tr>
+ <tr bordercolor="purpule">
+  <td><strong></strong></td>
+  <td><strong>HE LIKED EVIL NEPOLIAN</strong></td>
+ </tr>
+</tfoot>
+</table>
+<div class='center'>
+<marquee behavior="scroll" direction="left">
+<p class="awesome">VOTE FOR MOLLIE</p>
+</div>
+</marquee>
+</body>
+</html>
